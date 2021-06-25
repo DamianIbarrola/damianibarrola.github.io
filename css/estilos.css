@@ -1,5 +1,30 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(89, 241, 18);
     text-align: center;
-    color: darkturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 10px;
+}
+
+#container{
+    background: rgb(17, 17, 17);
+    width: 50%;
+    padding: 3px;
+    text-align: center;
+    border: 4px solid rgb(2, 36, 33);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 3px rgb(231, 68, 236),
+    -5px -5px 8px 3px rgb(106, 126, 241)
+    ,5px 5px 8px 3px rgb(20, 114, 238); 
+    
+    /*box-shadow tiene DIFERENTES valores el primero es x el
+    2do es Y; el 3er valor toma 
+    el decenfoque en pixeles(BLUR); el 4to valor toma
+    la DIFUSION (ANCHO) y el 5to valor el el COLOR; el 6to 
+    valor indica si la sombra es INTERNA o EXTERNA*/   
+}
+
+#container h1{
+    font-size: 30px;
 }
